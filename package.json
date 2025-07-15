@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Homework 19 - JavaScript Functions and Testing",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "test:coverage": "vitest run --coverage"

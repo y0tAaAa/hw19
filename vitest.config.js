@@ -5,7 +5,8 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./vitest.setup.js'],
-    include: ['**/*.test.js'],
-    silent: true
+    includeSource: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    include: ['**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    silent: false
   }
 }) 
